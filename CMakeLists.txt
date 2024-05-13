@@ -13,6 +13,7 @@ include_directories(${GIT2_INCLUDE_DIR})
 add_definitions(-DGIT_DEPRECATE_HARD)
 
 add_executable(${PROJECT_NAME}
+        CppGit.cpp
         main.cpp
 )
 
